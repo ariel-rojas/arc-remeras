@@ -1,0 +1,20 @@
+.navbar{
+    padding: 0;
+    .container-fluid{
+        background-color: $color-2;
+        .navbar-collapse{
+            .navbar-nav{
+                li{
+                    padding: 1rem;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: $color-3;
+                    }
+                }
+            }
+        }
+    }
+}
+.logo{
+    width: 8rem;
+}

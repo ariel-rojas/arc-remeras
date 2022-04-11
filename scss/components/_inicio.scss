@@ -1,0 +1,84 @@
+
+/*  portadas */
+.portada-principal{
+    @include portada-desktop;
+    margin-top: 2.5rem;
+    background-color: #ffaa25;
+    background-image: linear-gradient(180deg, #ffaa25 0%, #e9331b 75%,$color-6 100%);
+    transition: all 1s ease;
+    &:hover{
+        @include bg-portada-desktop;
+        background-image: url(../../images/flower_boy.jpg);
+    }
+}
+
+.portada-secundaria{
+    @include portada-desktop;
+    background-color: #fea9c0;
+    background-image: linear-gradient(180deg, #fea9c0 17%, #f0eee2 53%, #fea9c0 84%);
+    transition: all 1s ease;
+    &:hover{
+        @include bg-portada-desktop;
+        background-image: url(../../images/sin_miedo.jpg);
+    }
+}
+
+.descripcion{
+    background: $color-4;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+}
+
+/* servicios */
+.servicios{
+    @include servicios;
+    flex-direction: row;
+    background-image:url(../images/fondo_remeras-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    div{
+        padding: 3rem;
+        margin:3rem;
+        width: 30rem;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 1rem;
+        background-color: $color-4;
+        &:hover{
+            background-color: $color-5;
+        }
+    }
+}
+
+/* adaptación responsive para dispositivos móbiles */
+@media screen and (max-width: 768px ){
+    .portada-principal{
+        @include portada-mobile;
+        &:hover{
+            @include bg-portada-mobile;
+        }
+    }    
+    .portada-secundaria{
+        @include portada-mobile;
+        &:hover{
+            @include bg-portada-mobile;
+        }
+    }
+    .servicios{
+        flex-direction: column;
+        div{
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+}
