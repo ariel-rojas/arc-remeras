@@ -8,7 +8,7 @@
     transition: all 1s ease;
     &:hover{
         @include bg-portada-desktop;
-        background-image: url(../../images/flower_boy.jpg);
+        background-image: url(../images/flower_boy.jpg);
     }
 }
 
@@ -19,7 +19,7 @@
     transition: all 1s ease;
     &:hover{
         @include bg-portada-desktop;
-        background-image: url(../../images/sin_miedo.jpg);
+        background-image: url(../images/sin_miedo.jpg);
     }
 }
 
@@ -64,12 +64,20 @@
 @media screen and (max-width: 768px ){
     .portada-principal{
         @include portada-mobile;
+        .descripcion{
+            width: 20rem;
+            height: 20rem;
+        }
         &:hover{
             @include bg-portada-mobile;
         }
     }    
     .portada-secundaria{
         @include portada-mobile;
+        .descripcion{
+            width: 20rem;
+            height: 20rem;
+        }
         &:hover{
             @include bg-portada-mobile;
         }
