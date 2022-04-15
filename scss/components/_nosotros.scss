@@ -1,0 +1,36 @@
+.contenedor{
+    text-align: center;
+    .nosotros{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-around;
+        .informacion{
+            width: 30rem;
+            height: 30rem;
+        }
+        .ubicacion{
+            width: 30rem;
+            height: 30rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+}
+p{
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 768px ){
+    .nosotros{
+        flex-direction: column;
+        align-items: center;
+        .informacion{
+            width: 20rem;
+            height: 20rem;
+        }
+        .ubicacion{
+            justify-content: center;
+        }
+    }
+
+}

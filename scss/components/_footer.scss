@@ -1,0 +1,50 @@
+/* Footer */
+footer{
+    background-color: $color-5;
+    .container{
+        .redes{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            a{
+                display: flex;
+                margin: 2rem;
+                &:hover{
+                    color: $color-6;
+                }
+
+            }
+        }
+    }
+}
+
+/* Logos de redes */
+.fa {
+    font-size: 3rem;
+    color: $color-1;
+    text-align: center;
+    text-decoration: none;
+
+  }
+.subscripcion{
+    p{
+        font-weight: bold;
+        color: $color-1;
+    }
+
+}
+.nav{
+    li{
+        padding: 0.5rem;
+        font-weight: bold;
+        &:hover{
+            background-color: $color-3;
+            a{
+                color:$color-6;
+            }
+        }
+        a{
+            color: $color-1;
+        }
+    }
+}

@@ -20,13 +20,13 @@
 }
 /* ajustar correctamente imagen del fondo */
 @mixin bg-portada-desktop{
-    background-repeat: repeat;
-    background-size: 40%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 @mixin bg-portada-mobile{
     width: 100%;
     background-repeat: no-repeat;
-
+    background-position: center;
     background-size: cover;
 }
 
@@ -36,4 +36,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* centrar contenedores tipo flex */
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

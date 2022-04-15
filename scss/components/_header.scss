@@ -9,7 +9,13 @@
                     font-weight: bold;
                     &:hover{
                         background-color: $color-3;
+                        a{
+                            color:$color-6;
+                        }
                     }
+                }
+                a{
+                    color: $color-1;
                 }
             }
         }

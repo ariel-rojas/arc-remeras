@@ -1,0 +1,90 @@
+.productos{
+    text-align: center;
+    .remeras{
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        .card{
+            width: 350px;
+            height: 550px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            margin: 20px;
+            text-align: center;
+            transition:  all 0.3s;
+            .img-1{
+                background-color: #1d6f46;
+            }
+            .img-2{
+                background-color: #fea9c0; 
+            }
+            .img-3{
+                background-color: #80879b; 
+            }
+            .img-4{
+                background: #77ae63;
+            }
+            .img-5{
+                background: #e94236;
+            }
+            .img-6{
+                background: #ee541c;
+            }
+            .img-7{
+                background: #f8eba9;
+            }
+            .img-8{
+                background: #417d6b;
+            }
+            .img-9{
+                background: #f9db64;
+            }
+            .img-10{
+                background: #1f7e87;
+            }
+            .img-11{
+                background: #afc4cf;
+            }
+            .img-12{
+                background: #3c3c33;
+            }
+            img{
+                width: 330px;
+                height: 330px;
+            }
+            .card-title{
+                display: flex;
+                min-height: 4rem;
+                font-size: 1.8rem;
+                font-weight: bold;
+                justify-content: center;
+                text-align: center;
+            }
+            .card-subtitle{
+                min-height: 3rem;
+            }
+            .card-price{
+                min-height: 3rem;
+            }
+            .btn{
+                width: 250px;
+                height: 40px;
+                display: block;
+                margin: auto;
+                transition: 0.3s;
+                
+            }
+            a{
+                text-decoration: none;
+            }
+            &:hover{
+                box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);                
+            }
+        }
+    }
+}
