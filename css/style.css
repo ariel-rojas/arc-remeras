@@ -24,6 +24,8 @@ a { text-decoration: none; }
 /* centrar contenedores tipo flex */
 body { background-color: #efe9d1; color: #3b2b1e; }
 
+main { background-color: beige; }
+
 h1 { font-family: "Calistoga", cursive; }
 
 h2, h3, h4, p, a { font-family: "Montserrat", sans-serif; }
@@ -148,11 +150,20 @@ footer .container .redes a:hover { color: #c72a1f; }
 
 .contenedor .nosotros .informacion { width: 30rem; height: 30rem; }
 
-.contenedor .nosotros .ubicacion { width: 30rem; height: 30rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; }
+.contenedor .nosotros .ubicacion { width: 30rem; height: 22rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 p { font-size: 1.4rem; }
 
-@media screen and (max-width: 768px) { .nosotros { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-  .nosotros .informacion { width: 20rem; height: 20rem; }
-  .nosotros .ubicacion { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
+@media screen and (max-width: 768px) { .contenedor .nosotros { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+  .contenedor .nosotros p { font-size: 1.2rem; }
+  .contenedor .nosotros .informacion { width: 20rem; height: 30rem; }
+  .contenedor .nosotros .ubicacion { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: 20rem; height: auto; margin-bottom: 2rem; } }
+
+.titulo-preguntas { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; }
+
+.pregunta-header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; }
+
+.pregunta-collapse { margin: auto; width: 50rem; }
+
+@media screen and (max-width: 768px) { .pregunta-collapse { margin: auto; width: 20rem; } }
 /*# sourceMappingURL=style.css.map */

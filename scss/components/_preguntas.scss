@@ -1,0 +1,18 @@
+
+.titulo-preguntas{
+    @include flex-center;
+}
+.pregunta-header{
+    @include flex-center;
+}
+.pregunta-collapse{
+    margin: auto;
+    width: 50rem;
+}
+
+@media screen and (max-width: 768px ){
+    .pregunta-collapse{
+        margin: auto;
+        width: 20rem;
+    }
+}

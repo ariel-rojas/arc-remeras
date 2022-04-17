@@ -10,10 +10,10 @@
         }
         .ubicacion{
             width: 30rem;
-            height: 30rem;
+            height: 22rem;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: space-between;
         }
     }
 }
@@ -21,16 +21,24 @@ p{
     font-size: 1.4rem;
 }
 @media screen and (max-width: 768px ){
-    .nosotros{
-        flex-direction: column;
-        align-items: center;
-        .informacion{
-            width: 20rem;
-            height: 20rem;
-        }
-        .ubicacion{
-            justify-content: center;
+    .contenedor{
+        .nosotros{
+            p{
+                font-size: 1.2rem;
+            }
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .informacion{
+                width: 20rem;
+                height: 30rem;
+            }
+            .ubicacion{
+                justify-content: center;
+                width: 20rem;
+                height: auto;
+                margin-bottom: 2rem;
+            }
         }
     }
-
 }
