@@ -7,6 +7,13 @@
         .informacion{
             width: 30rem;
             height: 30rem;
+            a{
+                color: $color-1;
+                font-weight: bold;
+                &:hover{
+                    color: $color-6;
+                }
+            }
         }
         .ubicacion{
             width: 30rem;

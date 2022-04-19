@@ -7,7 +7,7 @@
     transition: all 1s ease;
     &:hover{
         @include bg-portada-desktop;
-        background-image: url(../images/flower_boy.jpg);
+        background-image: url(../images/bg_flowerboy.jpg);
     }
 }
 
@@ -18,7 +18,7 @@
     transition: all 1s ease;
     &:hover{
         @include bg-portada-desktop;
-        background-image: url(../images/sin_miedo.jpg);
+        background-image: url(../images/bg_sinmiedo.jpg);
     }
 }
 
@@ -41,7 +41,7 @@
 .servicios{
     @include servicios;
     flex-direction: row;
-    background-image:url(../images/fondo_remeras-1.jpg);
+    background-image:url(../images/fondo_remeras.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,0 +1,25 @@
+.contacto{
+    width: 30rem;
+    margin: auto;
+    font-family: $font-family-2;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.contenedor-contacto{
+    margin: 0;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px ){
+    .contacto{
+        width: 18rem;
+    
+        margin: auto;
+    }
+}
