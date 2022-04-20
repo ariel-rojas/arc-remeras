@@ -51,11 +51,11 @@ h2, h3, h4, p, a { font-family: "Montserrat", sans-serif; }
 .servicios div:hover { background-color: rgba(240, 212, 176, 0.5); color: #c72a1f; }
 
 /* adaptación responsive para dispositivos móbiles */
-@media screen and (max-width: 768px) { .portada-principal { width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-  .portada-principal .descripcion { width: 15rem; height: 15rem; }
+@media screen and (max-width: 768px) { .portada-principal { width: 120%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .portada-principal .descripcion { width: 18rem; height: 18rem; }
   .portada-principal:hover { width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
-  .portada-secundaria { width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-  .portada-secundaria .descripcion { width: 15rem; height: 15rem; }
+  .portada-secundaria { width: 120%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .portada-secundaria .descripcion { width: 18rem; height: 18rem; }
   .portada-secundaria:hover { width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
   .servicios { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .servicios div { width: 20rem; height: 20rem; } }
