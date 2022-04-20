@@ -11,8 +11,8 @@
 
 /* portada para dispositivos mobiles */
 @mixin portada-mobile{
-    width: 120%;
-    height: 100vh;
+    width: 100%;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
