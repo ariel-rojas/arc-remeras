@@ -33,11 +33,11 @@ h2, h3, h4, p, a { font-family: "Montserrat", sans-serif; }
 /*  portadas */
 .portada-principal { width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; background-color: #ffaa25; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaa25), color-stop(75%, #e9331b), to(#c72a1f)); background-image: linear-gradient(180deg, #ffaa25 0%, #e9331b 75%, #c72a1f 100%); -webkit-transition: all 1s ease; transition: all 1s ease; }
 
-.portada-principal:hover { background-attachment: fixed; background-size: cover; background-image: url(../images/bg_flowerboy.jpg); }
+.portada-principal:hover { background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-image: url(../images/bg_flowerboy.jpg); }
 
 .portada-secundaria { width: 100%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; background-color: #fea9c0; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #fea9c0), color-stop(53%, #f0eee2), color-stop(84%, #fea9c0)); background-image: linear-gradient(180deg, #fea9c0 17%, #f0eee2 53%, #fea9c0 84%); -webkit-transition: all 1s ease; transition: all 1s ease; }
 
-.portada-secundaria:hover { background-attachment: fixed; background-size: cover; background-image: url(../images/bg_sinmiedo.jpg); }
+.portada-secundaria:hover { background-attachment: fixed; background-size: cover; background-repeat: no-repeat; background-image: url(../images/bg_sinmiedo.jpg); }
 
 .descripcion { background: rgba(255, 255, 255, 0.5); border-radius: 1rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 30rem; height: 20rem; }
 
@@ -53,10 +53,10 @@ h2, h3, h4, p, a { font-family: "Montserrat", sans-serif; }
 /* adaptación responsive para dispositivos móbiles */
 @media screen and (max-width: 768px) { .portada-principal { width: 120%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .portada-principal .descripcion { width: 18rem; height: 18rem; }
-  .portada-principal:hover { width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
+  .portada-principal:hover { background-attachment: fixed; background-size: cover; background-repeat: no-repeat; }
   .portada-secundaria { width: 120%; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .portada-secundaria .descripcion { width: 18rem; height: 18rem; }
-  .portada-secundaria:hover { width: 100%; background-repeat: no-repeat; background-position: center; background-size: cover; }
+  .portada-secundaria:hover { background-attachment: fixed; background-size: cover; background-repeat: no-repeat; }
   .servicios { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .servicios div { width: 20rem; height: 20rem; } }
 
