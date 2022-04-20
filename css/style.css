@@ -58,7 +58,7 @@ h2, h3, h4, p, a { font-family: "Montserrat", sans-serif; }
   .portada-secundaria .descripcion { width: 18rem; height: 18rem; }
   .portada-secundaria:hover { background-attachment: fixed; background-size: cover; background-repeat: no-repeat; }
   .servicios { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
-  .servicios div { width: 20rem; height: 20rem; } }
+  .servicios div { width: 18rem; height: 18rem; } }
 
 .navbar { padding: 0; }
 
